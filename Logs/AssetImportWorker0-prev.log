@@ -1,0 +1,1965 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit ProfessionalN' Language: 'pl' Physical Memory: 16237 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/bartek/InfiniteRunner
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60962
+Successfully changed project path to: C:/Users/bartek/InfiniteRunner
+C:/Users/bartek/InfiniteRunner
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/bartek/InfiniteRunner/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   
+    VRAM:     5992 MB
+    Driver:   31.0.15.2225
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001297 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 39.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.397 seconds
+Domain Reload Profiling:
+	ReloadAssembly (397ms)
+		BeginReloadAssembly (34ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (315ms)
+			LoadAssemblies (33ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (92ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (131ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (56ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003646 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.776 seconds
+Domain Reload Profiling:
+	ReloadAssembly (777ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (640ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2643.
+Total: 2.348800 ms (FindLiveObjects: 0.129900 ms CreateObjectMapping: 0.051700 ms MarkObjects: 2.103200 ms  DeleteObjects: 0.062800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9e1013b7126e01fcae76b0bd14226b') in 0.012320 seconds 
+  Import took 0.015384 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.108039 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (745ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (572ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (206ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395204) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 95.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2645.
+Total: 2.238300 ms (FindLiveObjects: 0.127800 ms CreateObjectMapping: 0.048100 ms MarkObjects: 2.035200 ms  DeleteObjects: 0.026600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.696 seconds
+Domain Reload Profiling:
+	ReloadAssembly (696ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (567ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395204) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.6 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2647.
+Total: 2.193800 ms (FindLiveObjects: 0.152000 ms CreateObjectMapping: 0.056900 ms MarkObjects: 1.966000 ms  DeleteObjects: 0.017700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003407 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Domain Reload Profiling:
+	ReloadAssembly (687ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (560ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (199ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395204) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2649.
+Total: 2.277700 ms (FindLiveObjects: 0.125100 ms CreateObjectMapping: 0.057300 ms MarkObjects: 2.077900 ms  DeleteObjects: 0.016500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.724 seconds
+Domain Reload Profiling:
+	ReloadAssembly (724ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (223ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395204) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2651.
+Total: 2.328900 ms (FindLiveObjects: 0.187800 ms CreateObjectMapping: 0.051700 ms MarkObjects: 2.074600 ms  DeleteObjects: 0.014000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003328 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Domain Reload Profiling:
+	ReloadAssembly (705ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (569ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (182ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (211ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395204) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2653.
+Total: 2.214100 ms (FindLiveObjects: 0.146000 ms CreateObjectMapping: 0.047700 ms MarkObjects: 2.002800 ms  DeleteObjects: 0.016800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002889 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Domain Reload Profiling:
+	ReloadAssembly (703ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (585ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395204) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2655.
+Total: 2.499700 ms (FindLiveObjects: 0.123500 ms CreateObjectMapping: 0.048700 ms MarkObjects: 2.309900 ms  DeleteObjects: 0.016500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003067 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.714 seconds
+Domain Reload Profiling:
+	ReloadAssembly (714ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (580ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (182ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (208ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395204) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2657.
+Total: 2.146500 ms (FindLiveObjects: 0.135900 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.948100 ms  DeleteObjects: 0.014400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003325 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.719 seconds
+Domain Reload Profiling:
+	ReloadAssembly (719ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (584ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395204) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.7 MB.
+System memory in use after: 95.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2659.
+Total: 2.321200 ms (FindLiveObjects: 0.130700 ms CreateObjectMapping: 0.046100 ms MarkObjects: 2.128800 ms  DeleteObjects: 0.014800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6046.997654 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Buy_Button_01.wav
+  artifactKey: Guid(683ff818ac0a9c54ea2a0193c422e9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Buy_Button_01.wav using Guid(683ff818ac0a9c54ea2a0193c422e9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd95766dbafe4f3a87f20e7b782960d') in 0.093532 seconds 
+  Import took 0.097789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Surface_01.wav
+  artifactKey: Guid(1f48415703a88314aa5fc3609aa75eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Surface_01.wav using Guid(1f48415703a88314aa5fc3609aa75eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db895d4f144fc75f1b585871909f809') in 0.016152 seconds 
+  Import took 0.019555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Retro_03.wav
+  artifactKey: Guid(ab0f86373e6b2e44297eac4666e8486a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Retro_03.wav using Guid(ab0f86373e6b2e44297eac4666e8486a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23600ff004522cb0cac9ec5242caf703') in 0.017827 seconds 
+  Import took 0.020610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins_Scale_05.wav
+  artifactKey: Guid(e0833c40fa903c345adf6dbb693cbb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins_Scale_05.wav using Guid(e0833c40fa903c345adf6dbb693cbb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f813e0925f4ae80d8276e2a5f0ea3b3') in 0.016174 seconds 
+  Import took 0.019219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins_Scale_01.wav
+  artifactKey: Guid(012b8704752fa7d448310ccf448acacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins_Scale_01.wav using Guid(012b8704752fa7d448310ccf448acacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51656a488d1cb1d3471ab6a03f9112d') in 0.015137 seconds 
+  Import took 0.018225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Buy_Button_04.wav
+  artifactKey: Guid(6d3ca7dddf4b474428b1e8d8b04a8681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Buy_Button_04.wav using Guid(6d3ca7dddf4b474428b1e8d8b04a8681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8780c4146e757ebe0835069128b97735') in 0.016726 seconds 
+  Import took 0.019554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Grab_04.wav
+  artifactKey: Guid(263ff2313d303e44baf927616089e078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Grab_04.wav using Guid(263ff2313d303e44baf927616089e078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a523051efed59a6f4a4cae858b57dd5') in 0.015502 seconds 
+  Import took 0.018431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_PickUp_03.wav
+  artifactKey: Guid(e6c64ee6c8706f74691a05a0cf0f99ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_PickUp_03.wav using Guid(e6c64ee6c8706f74691a05a0cf0f99ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a68955dba4168baa7ba830cb881bd1f') in 0.017962 seconds 
+  Import took 0.020779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Floor_01.wav
+  artifactKey: Guid(7081f330ba2abf948b0725c5f2d96682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Floor_01.wav using Guid(7081f330ba2abf948b0725c5f2d96682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a055aea7074d7febaf67f5d99dda8ddd') in 0.014788 seconds 
+  Import took 0.017548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Grab_03.wav
+  artifactKey: Guid(8bfcffeca95348548b3efbdf9e6f602a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Grab_03.wav using Guid(8bfcffeca95348548b3efbdf9e6f602a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41731b80a53564b53b5806a34045e2a') in 0.015413 seconds 
+  Import took 0.018352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Gems_Opening_02.wav
+  artifactKey: Guid(6ddface827e2e874caa7bef1314ff82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Gems_Opening_02.wav using Guid(6ddface827e2e874caa7bef1314ff82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25e3869897ea54abcacddba06b48915') in 0.015156 seconds 
+  Import took 0.018017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins___Marimba_Scale_01.wav
+  artifactKey: Guid(d4f04ceda24bc30499ccc022ab5726a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins___Marimba_Scale_01.wav using Guid(d4f04ceda24bc30499ccc022ab5726a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaf327782d99e430afb2026c7e0cfac') in 0.016627 seconds 
+  Import took 0.019541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Grab_06.wav
+  artifactKey: Guid(6532b2f1b23bab54d859e3518ac36078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Grab_06.wav using Guid(6532b2f1b23bab54d859e3518ac36078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367f1e9b2b620cf5788d08ac2f0a40a8') in 0.014439 seconds 
+  Import took 0.017286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Normal_Landing_02.wav
+  artifactKey: Guid(05f3ebd46af4fa748bfa3b720ca82f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Normal_Landing_02.wav using Guid(05f3ebd46af4fa748bfa3b720ca82f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175cef710a1f76aa6fe7cc4902f6c108') in 0.014379 seconds 
+  Import took 0.017212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Table_04.wav
+  artifactKey: Guid(a9424783d80963f48baa656714af048c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Table_04.wav using Guid(a9424783d80963f48baa656714af048c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44f23e1f776a3b37b4367734af5341e') in 0.015340 seconds 
+  Import took 0.018419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Floor_03.wav
+  artifactKey: Guid(c936f882b161874498709f41fd2a418d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Floor_03.wav using Guid(c936f882b161874498709f41fd2a418d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f928955b241204f7057b4c1c914e41e') in 0.013503 seconds 
+  Import took 0.016442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins_Scale_04.wav
+  artifactKey: Guid(13de9175a2d8ac840b6b39dca60bc42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins_Scale_04.wav using Guid(13de9175a2d8ac840b6b39dca60bc42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05e5439d7f818729c1fea655d0df515') in 0.013245 seconds 
+  Import took 0.016176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Normal_Close_02.wav
+  artifactKey: Guid(76926c4cc1f531e46a6e4f6c8ae4ec53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Normal_Close_02.wav using Guid(76926c4cc1f531e46a6e4f6c8ae4ec53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c62c8bfb4ed2995ac2fe5d158a4a8c') in 0.013818 seconds 
+  Import took 0.016563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Rolling_On_Table.wav
+  artifactKey: Guid(f93c1ec7743a51f43ad49fe0f269de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Rolling_On_Table.wav using Guid(f93c1ec7743a51f43ad49fe0f269de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d4a787c0e0075fbb7d126933c7c62e') in 0.012660 seconds 
+  Import took 0.015305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Magic_Opening_03.wav
+  artifactKey: Guid(4d37caf4f3281d94d9e7c9aace1be6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Magic_Opening_03.wav using Guid(4d37caf4f3281d94d9e7c9aace1be6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e9d4716c22f618a6778cc9d5c75947') in 0.013437 seconds 
+  Import took 0.016220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Buy_Button_03.wav
+  artifactKey: Guid(843b75d7ded7aca4892276e5386cd815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Buy_Button_03.wav using Guid(843b75d7ded7aca4892276e5386cd815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad270cbb87e8919ec97e8efa8c0e969') in 0.013221 seconds 
+  Import took 0.016100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Table_02.wav
+  artifactKey: Guid(e03915fad8b0b2a4cace2716353c68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Table_02.wav using Guid(e03915fad8b0b2a4cace2716353c68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12030f6422734f84310126615ca7488') in 0.012834 seconds 
+  Import took 0.015981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Table_03.wav
+  artifactKey: Guid(edf316ee5161f8b459d0fb40cc34657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Table_03.wav using Guid(edf316ee5161f8b459d0fb40cc34657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba028d1e7d11fa27c5be4a80be4d06d') in 0.013174 seconds 
+  Import took 0.016647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins___Marimba_Scale_06.wav
+  artifactKey: Guid(4baf7cc0856355a43b56b2346ba313e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins___Marimba_Scale_06.wav using Guid(4baf7cc0856355a43b56b2346ba313e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2454fc2bde24bb7a172927158655b3') in 0.014362 seconds 
+  Import took 0.017950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Surface_03.wav
+  artifactKey: Guid(01316de13784d1f4eb17bf284d80102f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Surface_03.wav using Guid(01316de13784d1f4eb17bf284d80102f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e41e83b74370fd48d8d4dc20f7c627') in 0.013891 seconds 
+  Import took 0.016733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Buy_Button_02.wav
+  artifactKey: Guid(36f8d88a6ac9eee469dcd9fd57c021c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Buy_Button_02.wav using Guid(36f8d88a6ac9eee469dcd9fd57c021c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff00399f741ef39b1123496c63440bc') in 0.013745 seconds 
+  Import took 0.016600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Normal_Opening_03.wav
+  artifactKey: Guid(4d4b609d8ade6504c9d04c439878017b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Normal_Opening_03.wav using Guid(4d4b609d8ade6504c9d04c439878017b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd08ad3f595e59d83e39d13eed4dcc4') in 0.012963 seconds 
+  Import took 0.015759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Coins_Opening_02.wav
+  artifactKey: Guid(bd5adce22c19e004598f1f6f0712dd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Coins_Opening_02.wav using Guid(bd5adce22c19e004598f1f6f0712dd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e9d460a4b8092e9d030454b65eaac2') in 0.013155 seconds 
+  Import took 0.016085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Surface_04.wav
+  artifactKey: Guid(8a2a11a1bd45d914781d2a9d17602ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Surface_04.wav using Guid(8a2a11a1bd45d914781d2a9d17602ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b74991d7cc36baf1470a0e9324d2e2') in 0.013471 seconds 
+  Import took 0.016189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Grab_02.wav
+  artifactKey: Guid(51844d9c24d4e53478bd04d7c92a80ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Grab_02.wav using Guid(51844d9c24d4e53478bd04d7c92a80ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985cebccde5bac59707e11eb7f4ca445') in 0.013691 seconds 
+  Import took 0.016566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Retro_04.wav
+  artifactKey: Guid(425bdd7202a2cb644b452c3381f7897b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Retro_04.wav using Guid(425bdd7202a2cb644b452c3381f7897b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5175d2d48fa87e18e691268736a76a') in 0.012569 seconds 
+  Import took 0.015035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins_Scale_02.wav
+  artifactKey: Guid(aa47df978f8f8ef42810955adacb8f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins_Scale_02.wav using Guid(aa47df978f8f8ef42810955adacb8f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bb08e0284f6fe8c3f1b297bcd2c046') in 0.013343 seconds 
+  Import took 0.016069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Coins_Opening_03.wav
+  artifactKey: Guid(29ba278a5e578a845a13fae4f68da77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Coins_Opening_03.wav using Guid(29ba278a5e578a845a13fae4f68da77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f210882c372070a60ccfb36b8beb31') in 0.013389 seconds 
+  Import took 0.016267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Normal_Close_01.wav
+  artifactKey: Guid(da61154f335969f47a30827c07f26b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Normal_Close_01.wav using Guid(da61154f335969f47a30827c07f26b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650d56fd5a81fa99feecec3a427194cc') in 0.012878 seconds 
+  Import took 0.015888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_PickUp_02.wav
+  artifactKey: Guid(420561f23ea077645af0a66b21d23424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_PickUp_02.wav using Guid(420561f23ea077645af0a66b21d23424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73005e059ee13e1d1c5e37a9cc69f626') in 0.013616 seconds 
+  Import took 0.016443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Spinning_Short.wav
+  artifactKey: Guid(a7e2676ae92db5243a8481483ccf9393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Spinning_Short.wav using Guid(a7e2676ae92db5243a8481483ccf9393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b845b6594d2d4141619be6c51a90079e') in 0.012864 seconds 
+  Import took 0.015829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Table_06.wav
+  artifactKey: Guid(35a9f8fea08f5054197ee1adf840780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Table_06.wav using Guid(35a9f8fea08f5054197ee1adf840780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a6ab0e74ecec74ee9f965f7f821a94') in 0.014779 seconds 
+  Import took 0.018074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_PickUp_01.wav
+  artifactKey: Guid(62b26bc276a143f4094772e2ceb2cd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_PickUp_01.wav using Guid(62b26bc276a143f4094772e2ceb2cd88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c09c0c86c3dd2cdbb9a0421fb1366bd') in 0.012662 seconds 
+  Import took 0.015469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Moving_01.wav
+  artifactKey: Guid(0aa1b57ae77c9794db3dc96a90632625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Moving_01.wav using Guid(0aa1b57ae77c9794db3dc96a90632625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e29ba6aab2701ee7e0b38fa316c0ac') in 0.013460 seconds 
+  Import took 0.015949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins___Marimba_Scale_03.wav
+  artifactKey: Guid(395db0d7661c5d544b81cc2966834886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins___Marimba_Scale_03.wav using Guid(395db0d7661c5d544b81cc2966834886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e023a3a26a3cd0f685908164eaf4599') in 0.012851 seconds 
+  Import took 0.015628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Buy_Button_06.wav
+  artifactKey: Guid(31cd7f2010ed4f84d99100fe827d5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Buy_Button_06.wav using Guid(31cd7f2010ed4f84d99100fe827d5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0008f97dbfc5e462ad997eaddc24bfaf') in 0.013694 seconds 
+  Import took 0.016235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins___Marimba_Scale_02.wav
+  artifactKey: Guid(e5d31cabb8ed9a14998517636dd930e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins___Marimba_Scale_02.wav using Guid(e5d31cabb8ed9a14998517636dd930e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de64d53437cfe4559271af7d32ec107') in 0.013750 seconds 
+  Import took 0.016328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Gems_Opening_01.wav
+  artifactKey: Guid(b6804b97fd846184390511b60c093513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Gems_Opening_01.wav using Guid(b6804b97fd846184390511b60c093513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e923217db0e92dbbc84c6595ecd54a1') in 0.013018 seconds 
+  Import took 0.015786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Buy_Button_05.wav
+  artifactKey: Guid(5bc02d52af5960e4cb4e989e4ae7e1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Buy_Button_05.wav using Guid(5bc02d52af5960e4cb4e989e4ae7e1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4416934c4837b8676c2531942cffad') in 0.014274 seconds 
+  Import took 0.016959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Magic_Opening_02.wav
+  artifactKey: Guid(e71805e0349af004492b2c6b1041990a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Magic_Opening_02.wav using Guid(e71805e0349af004492b2c6b1041990a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdf5288535d85e1c9ba73cf7256891b') in 0.012796 seconds 
+  Import took 0.015572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins___Marimba_Scale_05.wav
+  artifactKey: Guid(9ebbd890334119c4fb67f99904459396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins___Marimba_Scale_05.wav using Guid(9ebbd890334119c4fb67f99904459396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e44c848704800df4d5dedcb841b0fd') in 0.012976 seconds 
+  Import took 0.015692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Moving_02.wav
+  artifactKey: Guid(bdb847882cd204d4fb444328d5ef0108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Moving_02.wav using Guid(bdb847882cd204d4fb444328d5ef0108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a98c6ebfd345496fef6edaec764739') in 0.013262 seconds 
+  Import took 0.015987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Retro_01.wav
+  artifactKey: Guid(dc4fc9b634830c246b209c640f5ab27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Retro_01.wav using Guid(dc4fc9b634830c246b209c640f5ab27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9789f0ddd8be9a66c971832b8f7108') in 0.009419 seconds 
+  Import took 0.012198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Normal_Opening_02.wav
+  artifactKey: Guid(a162b357ec303424a844075c5bc97750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Normal_Opening_02.wav using Guid(a162b357ec303424a844075c5bc97750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbfed2d1e201347dcb18010542f3d29') in 0.013148 seconds 
+  Import took 0.015880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Normal_Opening_01.wav
+  artifactKey: Guid(72d7c2a01501987418d887dd6aff5f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Normal_Opening_01.wav using Guid(72d7c2a01501987418d887dd6aff5f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ed0c2f69695f38108e49147adb4f05') in 0.013973 seconds 
+  Import took 0.017056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_PickUp_04.wav
+  artifactKey: Guid(619517dd6aba00444a2ddc7b89279101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_PickUp_04.wav using Guid(619517dd6aba00444a2ddc7b89279101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a88b19a6a54bdb1ce273ff2faec81e') in 0.013323 seconds 
+  Import took 0.016097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Coins_Opening_01.wav
+  artifactKey: Guid(5a392cba1b3740643ada348eda0801b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Coins_Opening_01.wav using Guid(5a392cba1b3740643ada348eda0801b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21585a9f024660a804d799856f6dbc65') in 0.013938 seconds 
+  Import took 0.016871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Grab_01.wav
+  artifactKey: Guid(ddcc1d42ed32fff499cf97bc929d2d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Grab_01.wav using Guid(ddcc1d42ed32fff499cf97bc929d2d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f311a34cdde579721789cd008b9c13f0') in 0.013279 seconds 
+  Import took 0.016170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Retro_02.wav
+  artifactKey: Guid(9e0365c02395f024289de6e7fe10d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Retro_02.wav using Guid(9e0365c02395f024289de6e7fe10d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82513f04aa7ed6f0a522b76e3be3f956') in 0.014490 seconds 
+  Import took 0.017122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Spinning_Large.wav
+  artifactKey: Guid(1e7779f3a07cc7d44bd79e6ca9c4d976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Spinning_Large.wav using Guid(1e7779f3a07cc7d44bd79e6ca9c4d976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ad686d91f5099a838c073fa80de6f3') in 0.013389 seconds 
+  Import took 0.016287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Grab_05.wav
+  artifactKey: Guid(758959071f3399b40adc03bbf471c149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Grab_05.wav using Guid(758959071f3399b40adc03bbf471c149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07535dfb6b33281ef53daa3c6c8ca01') in 0.013971 seconds 
+  Import took 0.017176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Table_05.wav
+  artifactKey: Guid(05bb246f4b2e6004d81f9c6dc571326f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Table_05.wav using Guid(05bb246f4b2e6004d81f9c6dc571326f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae83c3bd10292636a319372f27304ab') in 0.014048 seconds 
+  Import took 0.017087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Surface_02.wav
+  artifactKey: Guid(7135c0ee1c1a30b44afe2f6a82f9ad90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Surface_02.wav using Guid(7135c0ee1c1a30b44afe2f6a82f9ad90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ce615e1b34bb233d3801fcf7f564bd') in 0.013746 seconds 
+  Import took 0.016602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins_Scale_03.wav
+  artifactKey: Guid(4bbe1ad3b343c5247ba8b6f20702c150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins_Scale_03.wav using Guid(4bbe1ad3b343c5247ba8b6f20702c150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ed1f5b6a8c4c4327fe1a016ff27a50') in 0.013264 seconds 
+  Import took 0.015990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Magic_Opening_01.wav
+  artifactKey: Guid(48630d30b778dd345a05bd59dc63ae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Magic_Opening_01.wav using Guid(48630d30b778dd345a05bd59dc63ae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb4089348eacba4c4558867b9da1651') in 0.012851 seconds 
+  Import took 0.015423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins___Marimba_Scale_04.wav
+  artifactKey: Guid(78893ee108c854940a5a7371f34395aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coins___Marimba_Scale_04.wav using Guid(78893ee108c854940a5a7371f34395aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd006cb38bc89308a90092510779e556') in 0.013123 seconds 
+  Import took 0.015919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Gems_Opening_03.wav
+  artifactKey: Guid(ffe82bd24c55aa84397f9df913469a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Gems_Opening_03.wav using Guid(ffe82bd24c55aa84397f9df913469a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab3f17e5a450aba6eb1efb4163d5b22') in 0.015730 seconds 
+  Import took 0.018764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Table_01.wav
+  artifactKey: Guid(63ac26e0ac4e14b459d0e712f35e1897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Table_01.wav using Guid(63ac26e0ac4e14b459d0e712f35e1897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91baaea62f5a49370afb7d5913929f0c') in 0.013936 seconds 
+  Import took 0.016541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Normal_Landing_01.wav
+  artifactKey: Guid(be644dfe386664243ab5134e0e2b9046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Chest_Normal_Landing_01.wav using Guid(be644dfe386664243ab5134e0e2b9046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdbb52a29083f5e71c6cc2d734b0a2e') in 0.013388 seconds 
+  Import took 0.016436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Floor_02.wav
+  artifactKey: Guid(8d6b361547c798940a0e2fb8de5b2dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/coinsandchestsounds/Coins_Chest_Sounds/WAV/Coin_Falling_On_Floor_02.wav using Guid(8d6b361547c798940a0e2fb8de5b2dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe495733580ad427a02cda1949ae8941') in 0.012792 seconds 
+  Import took 0.015525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.926219 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Ambience_Bonfire_Loop.wav
+  artifactKey: Guid(4b81ae5eb6c6d0e40933dc103774854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Ambience_Bonfire_Loop.wav using Guid(4b81ae5eb6c6d0e40933dc103774854b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a646a8b388eae2cce091679672527b4') in 0.013752 seconds 
+  Import took 0.017061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Group_Of_Coins_02.wav
+  artifactKey: Guid(7d95ee7007ced1e4696df63997ae9386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Group_Of_Coins_02.wav using Guid(7d95ee7007ced1e4696df63997ae9386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdb0b0759b4266e706ec5e190f7ecd4') in 0.021885 seconds 
+  Import took 0.024622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Chest_Gems_Opening_01.wav
+  artifactKey: Guid(1da60adb61a1b9d41a82f2f549069c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Chest_Gems_Opening_01.wav using Guid(1da60adb61a1b9d41a82f2f549069c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b293ea2c89947009e40b93933dc8ee') in 0.015469 seconds 
+  Import took 0.018418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Wood_02.wav
+  artifactKey: Guid(4fdb31253f972c64e92d1433123d3f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Wood_02.wav using Guid(4fdb31253f972c64e92d1433123d3f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60df1dd5d749472b11933d6fe504a75') in 0.014589 seconds 
+  Import took 0.017410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Ambience_Day.wav
+  artifactKey: Guid(928ef298d3e4c6e40a0cc0fb31827e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Ambience_Day.wav using Guid(928ef298d3e4c6e40a0cc0fb31827e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beeba73ed701fbf2ec1e82f8e34f9846') in 0.013972 seconds 
+  Import took 0.016855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Book_02.wav
+  artifactKey: Guid(6e9fd3d79c0c8b343b42667d7d79e24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Book_02.wav using Guid(6e9fd3d79c0c8b343b42667d7d79e24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2ef1b752488c14b7901418e84c239b') in 0.020699 seconds 
+  Import took 0.023815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Armour_02.wav
+  artifactKey: Guid(c7171feecd9de1d469dd65ab43e43d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Armour_02.wav using Guid(c7171feecd9de1d469dd65ab43e43d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f577d73b40e3ee1baf8300d7c7af62') in 0.015264 seconds 
+  Import took 0.018076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Mineral_Stone_04.wav
+  artifactKey: Guid(4391eb2e743a24a47874f9ca20338c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Mineral_Stone_04.wav using Guid(4391eb2e743a24a47874f9ca20338c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6ab1e570f2d5487979d7d57b99123d') in 0.013909 seconds 
+  Import took 0.016590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Book_01.wav
+  artifactKey: Guid(971c7dfba7edb8144bf7ddaffcfd04ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Book_01.wav using Guid(971c7dfba7edb8144bf7ddaffcfd04ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e791e9dac6c62be6fae754693f869461') in 0.016392 seconds 
+  Import took 0.019105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Chest_Coins_Opening.wav
+  artifactKey: Guid(8da294773095e974d915d5af0cc98aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Chest_Coins_Opening.wav using Guid(8da294773095e974d915d5af0cc98aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f86bd6cf84412cad5061b296e0f7fdb') in 0.015196 seconds 
+  Import took 0.017697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Mineral_Stone_02.wav
+  artifactKey: Guid(b665df5d080bf23418061e382c116d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Mineral_Stone_02.wav using Guid(b665df5d080bf23418061e382c116d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596421acf7d7ca0eff13214eef20d69c') in 0.014805 seconds 
+  Import took 0.017296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Armour_01.wav
+  artifactKey: Guid(7c85db95c94ec7840a112825389e467b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Armour_01.wav using Guid(7c85db95c94ec7840a112825389e467b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56de6242638ac8c5c97dcb2b464eb1ee') in 0.016867 seconds 
+  Import took 0.019819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Drink_01.wav
+  artifactKey: Guid(37d1db1ad7f9e9b4e8665c5ca0978b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Drink_01.wav using Guid(37d1db1ad7f9e9b4e8665c5ca0978b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f2fd74a470b1e574f4fb7471f51b4d') in 0.014078 seconds 
+  Import took 0.016614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Book_TurnPage_03.wav
+  artifactKey: Guid(d72ffdde17ec5bb46a48b4942b268b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Book_TurnPage_03.wav using Guid(d72ffdde17ec5bb46a48b4942b268b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2b32cf696f3b104283ed0454c75160') in 0.015943 seconds 
+  Import took 0.018707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Coin_Sack.wav
+  artifactKey: Guid(a9ec138d3e080ad4391c61486ed67ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Coin_Sack.wav using Guid(a9ec138d3e080ad4391c61486ed67ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b08a77cca10f6e934e531ef7554933') in 0.015661 seconds 
+  Import took 0.018381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Potion_02.wav
+  artifactKey: Guid(beba57c9d57599a499846cb8f7aaf658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Potion_02.wav using Guid(beba57c9d57599a499846cb8f7aaf658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eaed0e9c149c2c431ef0e59aa9226d8') in 0.013769 seconds 
+  Import took 0.016393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Weapon_04.wav
+  artifactKey: Guid(fc0dd89ffb51d904eb751920fd96da72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Weapon_04.wav using Guid(fc0dd89ffb51d904eb751920fd96da72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bca3998942a05becf5dd4cda9c787f6') in 0.014904 seconds 
+  Import took 0.017437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Stones.wav
+  artifactKey: Guid(6dc34ac7a0832d145a35b7d051ecd8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Stones.wav using Guid(6dc34ac7a0832d145a35b7d051ecd8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14170c200ce4cb5484949841f96cd05') in 0.013741 seconds 
+  Import took 0.016603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Ambience_Night.wav
+  artifactKey: Guid(ddd131319e075af4d8c3f1f3ca322ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Ambience_Night.wav using Guid(ddd131319e075af4d8c3f1f3ca322ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac99ab6417d2d1504765c97a03e3b5b3') in 0.015401 seconds 
+  Import took 0.018228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Coin_01.wav
+  artifactKey: Guid(f02068f17849f034db27053093c6001f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Coin_01.wav using Guid(f02068f17849f034db27053093c6001f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ac5e5093fdb0efd9c5965bd5a05240') in 0.015040 seconds 
+  Import took 0.017961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Mineral_Stone_01.wav
+  artifactKey: Guid(6c25195ecc0b72a45b7056143ab18c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Mineral_Stone_01.wav using Guid(6c25195ecc0b72a45b7056143ab18c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca397773d8e5ddd4dc2b99529906d58') in 0.013059 seconds 
+  Import took 0.015692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Magic_Gem.wav
+  artifactKey: Guid(e596c6239b64905478d93757a557ceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Magic_Gem.wav using Guid(e596c6239b64905478d93757a557ceee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e419e9b10dbb46b28bbda04755d02ad') in 0.013380 seconds 
+  Import took 0.015896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Chest_Gems_Opening_02.wav
+  artifactKey: Guid(2d772139e6657134ba59e915c16582fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Chest_Gems_Opening_02.wav using Guid(2d772139e6657134ba59e915c16582fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcec36a8c9d2ad8fe107367a75502576') in 0.012019 seconds 
+  Import took 0.014684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Drink_02.wav
+  artifactKey: Guid(c586e47c761ff5848b8ba7ea3e82d209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Drink_02.wav using Guid(c586e47c761ff5848b8ba7ea3e82d209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fab5e884a845a063843c9f4f5b8bcbf') in 0.012507 seconds 
+  Import took 0.015049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Chest_Wood_Opening.wav
+  artifactKey: Guid(21422a63980411d4ea31b20792235a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Chest_Wood_Opening.wav using Guid(21422a63980411d4ea31b20792235a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ff0307f88621240af8415e8cd5280f') in 0.013034 seconds 
+  Import took 0.015543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Cloth_02.wav
+  artifactKey: Guid(16b4e07a4fc8c884082a8040f01af2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Cloth_02.wav using Guid(16b4e07a4fc8c884082a8040f01af2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23f6762bdbb6aa70a38ddd565342ccf') in 0.013571 seconds 
+  Import took 0.016270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Ambience_Crickets_Loop.wav
+  artifactKey: Guid(2685a4bf3c2c21b4a802e89871c52503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Ambience_Crickets_Loop.wav using Guid(2685a4bf3c2c21b4a802e89871c52503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fb7e8a3146ea333c6c94add16f5686') in 0.013611 seconds 
+  Import took 0.016276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Potion_01.wav
+  artifactKey: Guid(7deb6d11ffe7c2841bfc32117b2c0ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Potion_01.wav using Guid(7deb6d11ffe7c2841bfc32117b2c0ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e599814a1397300164df54e88b3c2e99') in 0.012971 seconds 
+  Import took 0.015769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Coin_03.wav
+  artifactKey: Guid(799efd39722ed9e4f84fa31aabd0224b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Coin_03.wav using Guid(799efd39722ed9e4f84fa31aabd0224b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a970a2e5d74a0653a61001d0b628ff05') in 0.013769 seconds 
+  Import took 0.016851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Eat_01.wav
+  artifactKey: Guid(42c79d40904e2a847b5d0e23096f6d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Eat_01.wav using Guid(42c79d40904e2a847b5d0e23096f6d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9e3b959da98c2c2b04e1ccbf0b4739') in 0.013258 seconds 
+  Import took 0.016053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Bottle_Open_02.wav
+  artifactKey: Guid(cec0fe41ec31ee54aae2be3c1ae4b364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Bottle_Open_02.wav using Guid(cec0fe41ec31ee54aae2be3c1ae4b364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ffa9e8bdd35f9f104bd793ad74747a') in 0.013449 seconds 
+  Import took 0.016421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Click_Mouse.wav
+  artifactKey: Guid(d5baa98c734cfc44ba5eb9cbb8f2e5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Click_Mouse.wav using Guid(d5baa98c734cfc44ba5eb9cbb8f2e5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf05201981d8054ab7e77887dd264952') in 0.012617 seconds 
+  Import took 0.015431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Stone_03.wav
+  artifactKey: Guid(4301a574a1832f54997dbb0558d7cc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Stone_03.wav using Guid(4301a574a1832f54997dbb0558d7cc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef48317592b2bc108fad70b14ce3e56') in 0.012818 seconds 
+  Import took 0.015447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Wood_01.wav
+  artifactKey: Guid(5019daab0193f6c44aaa68cb3d1f48af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Wood_01.wav using Guid(5019daab0193f6c44aaa68cb3d1f48af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4b8306d2085623d35b1b13a7c076a1') in 0.012038 seconds 
+  Import took 0.014706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Cloth_03.wav
+  artifactKey: Guid(b760874cb6317c44e88e29eee20bc90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Cloth_03.wav using Guid(b760874cb6317c44e88e29eee20bc90d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076eba7aac0ea1401824b7de22011d38') in 0.012906 seconds 
+  Import took 0.015809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Group_Of_Coins_01.wav
+  artifactKey: Guid(ac071378e3205e941857a5e65e1c8bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Group_Of_Coins_01.wav using Guid(ac071378e3205e941857a5e65e1c8bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1343a554c6a6e4beaeb49ce8c1954814') in 0.013938 seconds 
+  Import took 0.016738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Book_TurnPage_02.wav
+  artifactKey: Guid(e1a91f0f183e5bd42bd29e730da9c0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Book_TurnPage_02.wav using Guid(e1a91f0f183e5bd42bd29e730da9c0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395a22c7d6b3e7da0c574f4694d32d05') in 0.012535 seconds 
+  Import took 0.015058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Cloth_01.wav
+  artifactKey: Guid(7512570209f49814f8f337fbffec72bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Cloth_01.wav using Guid(7512570209f49814f8f337fbffec72bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748185dd4bb4605db1af8f78c3c28e0a') in 0.013451 seconds 
+  Import took 0.016088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Stone_02.wav
+  artifactKey: Guid(aca0e2ac9594e63498c5ed192e1cb798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Stone_02.wav using Guid(aca0e2ac9594e63498c5ed192e1cb798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb6877237dae153d0b0a4f98bb8565a') in 0.012911 seconds 
+  Import took 0.015579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Keyboard_Laptop_Loop.wav
+  artifactKey: Guid(86ea82db61c8c1e4cb3880ecf2b03360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Keyboard_Laptop_Loop.wav using Guid(86ea82db61c8c1e4cb3880ecf2b03360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31339e1252ea6f13206364ff4270fcbd') in 0.012812 seconds 
+  Import took 0.015722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Group_Of_Coins_03.wav
+  artifactKey: Guid(a7512052cdfac744f86ae6f44590b643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Group_Of_Coins_03.wav using Guid(a7512052cdfac744f86ae6f44590b643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b4c126bf19620300553ad1bd03dfb0') in 0.014554 seconds 
+  Import took 0.017427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Coin_04.wav
+  artifactKey: Guid(b6c3c410c83599e40a1ee15e501c834e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Coin_04.wav using Guid(b6c3c410c83599e40a1ee15e501c834e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc32884f619422caf2adc22e4361a509') in 0.014067 seconds 
+  Import took 0.016746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Eat_02.wav
+  artifactKey: Guid(09a4d8b5caeacd046be6041dca5724cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Eat_02.wav using Guid(09a4d8b5caeacd046be6041dca5724cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b106c08f25bf8fdd5157148b5861de7') in 0.012566 seconds 
+  Import took 0.015453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Bottle_Open_01.wav
+  artifactKey: Guid(8d695ac35b7345943b271e68822f542f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Bottle_Open_01.wav using Guid(8d695ac35b7345943b271e68822f542f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814414ab7c2f3d3af55266c50263064e') in 0.012545 seconds 
+  Import took 0.015232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Water_01.wav
+  artifactKey: Guid(3c0306a3320cb964d8836e1158bf2754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Water_01.wav using Guid(3c0306a3320cb964d8836e1158bf2754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53cdaf2ad29b2b35a29807e6fa120649') in 0.012218 seconds 
+  Import took 0.014847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Chest_Magic_Opening_01.wav
+  artifactKey: Guid(5edb6a1dbae6ab04e96e445c4079e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Chest_Magic_Opening_01.wav using Guid(5edb6a1dbae6ab04e96e445c4079e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61aea2d0a078baad46e580d241f3c12b') in 0.012515 seconds 
+  Import took 0.015315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Mail_Armor.wav
+  artifactKey: Guid(2676b421f5313df438f0184f711e0c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Mail_Armor.wav using Guid(2676b421f5313df438f0184f711e0c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8dc0f41c6bc2784712664ced5cd5e5') in 0.012556 seconds 
+  Import took 0.015102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Mechanism.wav
+  artifactKey: Guid(ac9905de361dc7741bd2572b89b6c2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Mechanism.wav using Guid(ac9905de361dc7741bd2572b89b6c2d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ee2dea028898b1bf1c557526e9c832') in 0.012205 seconds 
+  Import took 0.014894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Chain_02.wav
+  artifactKey: Guid(70f578e67eaf1004483578cb9888bae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Chain_02.wav using Guid(70f578e67eaf1004483578cb9888bae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ced31617c2272b1dbd2204d3b1e1a6b') in 0.013012 seconds 
+  Import took 0.015581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Chain_01.wav
+  artifactKey: Guid(ac7f73723912abe4f9b78f696b140400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Chain_01.wav using Guid(ac7f73723912abe4f9b78f696b140400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586b1b1c5fd9848498f0bcc404e6b9e9') in 0.012982 seconds 
+  Import took 0.015676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Eat_03.wav
+  artifactKey: Guid(8cf594848b36e4d439360f9a674ba20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Eat_03.wav using Guid(8cf594848b36e4d439360f9a674ba20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007d67042d0d1a963ccc5da791cde842') in 0.014405 seconds 
+  Import took 0.016878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Stone_01.wav
+  artifactKey: Guid(0a5646d6050189c42918d912ef190604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Stone_01.wav using Guid(0a5646d6050189c42918d912ef190604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e5dcde2afecccd07fdaa666875c758') in 0.013127 seconds 
+  Import took 0.015549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Coin_02.wav
+  artifactKey: Guid(a8d80a2c8bd85e24cbafcd6f1d890dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Coin_02.wav using Guid(a8d80a2c8bd85e24cbafcd6f1d890dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96179bce0ebfe361dab16a8a168764a8') in 0.013313 seconds 
+  Import took 0.015972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Water_03.wav
+  artifactKey: Guid(9d51a10d556451f409a007d25335e0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Water_03.wav using Guid(9d51a10d556451f409a007d25335e0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766f6addda963305ec7952136c3966bb') in 0.016895 seconds 
+  Import took 0.019695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Chest_Magic_Opening_02.wav
+  artifactKey: Guid(50dbfbca975d23c479006fc5700f15e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Chest_Magic_Opening_02.wav using Guid(50dbfbca975d23c479006fc5700f15e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fda2ec75208917ef0f176e929a7f85') in 0.013338 seconds 
+  Import took 0.016104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Mineral_Stone_03.wav
+  artifactKey: Guid(b8c088d4d08edfb45a75fcef717af58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Mineral_Stone_03.wav using Guid(b8c088d4d08edfb45a75fcef717af58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2063e7b0d770cc4ed4384476ecaa2716') in 0.012838 seconds 
+  Import took 0.015677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Weapon_01.wav
+  artifactKey: Guid(4226ebd3475388749b61dc47724d7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Weapon_01.wav using Guid(4226ebd3475388749b61dc47724d7d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1fbc9375a41b0678007b67613301ee') in 0.013574 seconds 
+  Import took 0.016334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Book_TurnPage_01.wav
+  artifactKey: Guid(c6b6bf1cb5481a14687d27fc8c71495f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Book_TurnPage_01.wav using Guid(c6b6bf1cb5481a14687d27fc8c71495f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b76e6dfb86e6b9dfe41cd2f080e0127') in 0.012459 seconds 
+  Import took 0.015320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Water_02.wav
+  artifactKey: Guid(4bf0f22624a5b444bb8a4e40438671eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Water_02.wav using Guid(4bf0f22624a5b444bb8a4e40438671eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df12ebf62b6c08e499302e0a3ed920bd') in 0.013037 seconds 
+  Import took 0.015793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Stone_04.wav
+  artifactKey: Guid(c54717df4d686fb42894e4855cc3c880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Stone_04.wav using Guid(c54717df4d686fb42894e4855cc3c880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9fb1397fd7b415a7f070571544c732') in 0.012742 seconds 
+  Import took 0.015899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Coin_05.wav
+  artifactKey: Guid(179e8e9781db05d4aaa742ea8cee284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Coin_05.wav using Guid(179e8e9781db05d4aaa742ea8cee284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b42d929e35a4855387b4e322a885c5') in 0.014166 seconds 
+  Import took 0.017059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Coin_06.wav
+  artifactKey: Guid(b63413f77e5c5994a9f3275696d20c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Coin_06.wav using Guid(b63413f77e5c5994a9f3275696d20c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c28a077f5de7e26792087b70024a6f') in 0.013876 seconds 
+  Import took 0.016627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Weapon_03.wav
+  artifactKey: Guid(35cb15c851d222d47af29745ed35a85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Weapon_03.wav using Guid(35cb15c851d222d47af29745ed35a85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8273f601faa15d2e7e05ec19ce6bcee3') in 0.012932 seconds 
+  Import took 0.015748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Weapon_02.wav
+  artifactKey: Guid(d07d030860ba97a4689275aa7c459fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Interaction_With_Weapon_02.wav using Guid(d07d030860ba97a4689275aa7c459fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953608dff7923169726c30e5e8e973e3') in 0.014554 seconds 
+  Import took 0.017428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.341827 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Keyboard_Loop.wav
+  artifactKey: Guid(e90e3baf29ca1494689a5c8440cf1be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Keyboard_Loop.wav using Guid(e90e3baf29ca1494689a5c8440cf1be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e0643a7795984f9ec4e6f0ada95ae1') in 0.014239 seconds 
+  Import took 0.016852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_01.wav
+  artifactKey: Guid(5a5058240c97222499b180c315323d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_01.wav using Guid(5a5058240c97222499b180c315323d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a9dc5ff2e47d93d0f03664e0efc417') in 0.014478 seconds 
+  Import took 0.017191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_Wood_02.wav
+  artifactKey: Guid(6a60686523211aa4bb708e62599c9c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_Wood_02.wav using Guid(6a60686523211aa4bb708e62599c9c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff30edac89426b58da98f34f6c94cbfb') in 0.012844 seconds 
+  Import took 0.015686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Dialogue_End_02.wav
+  artifactKey: Guid(4940076746343a842843ad2876b9a337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Dialogue_End_02.wav using Guid(4940076746343a842843ad2876b9a337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad1633bb4faf1ab7eb649eafbd475f12') in 0.012969 seconds 
+  Import took 0.015766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Alert.wav
+  artifactKey: Guid(e4236e9e4e2ba7f4e873c3d2676cf87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Alert.wav using Guid(e4236e9e4e2ba7f4e873c3d2676cf87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d394202eeb1000354578765533334c0') in 0.013704 seconds 
+  Import took 0.016490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_High_Pitch_05.wav
+  artifactKey: Guid(60946fcab5ff37c44900957e0010de49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_High_Pitch_05.wav using Guid(60946fcab5ff37c44900957e0010de49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65ae42da1dcd4786aa20599bffccf28') in 0.012454 seconds 
+  Import took 0.015193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Dialogue_End_01.wav
+  artifactKey: Guid(348a909a1d51e6d419787c93c9224cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Dialogue_End_01.wav using Guid(348a909a1d51e6d419787c93c9224cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bc5f1b63a07f9e5aa2da20a4d02181') in 0.012369 seconds 
+  Import took 0.015011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_High_Pitch_03.wav
+  artifactKey: Guid(5a2be1f368d4b4943b561696225864f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_High_Pitch_03.wav using Guid(5a2be1f368d4b4943b561696225864f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c76f760bad1998058852b8519bdc0c') in 0.013184 seconds 
+  Import took 0.016017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Menu_03.wav
+  artifactKey: Guid(598269b2de66f1b42b5dc2ce122ad07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Menu_03.wav using Guid(598269b2de66f1b42b5dc2ce122ad07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd436ba82c484fdf77caacc8232bd94f0') in 0.015413 seconds 
+  Import took 0.018892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Fantasy_Forward_In_Menu.wav
+  artifactKey: Guid(b2517e5d1937e2944bd94f64500db66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Fantasy_Forward_In_Menu.wav using Guid(b2517e5d1937e2944bd94f64500db66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e555b57f63500fabc095d23e72657b8d') in 0.014716 seconds 
+  Import took 0.017623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Loading_Text_Loop_01.wav
+  artifactKey: Guid(c01b0468f286db44b80321bb3c20e136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Loading_Text_Loop_01.wav using Guid(c01b0468f286db44b80321bb3c20e136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202a08912f0370b9499333fda89ea0ac') in 0.014756 seconds 
+  Import took 0.018062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Menu_01.wav
+  artifactKey: Guid(b4ebea81cb105d641aa53185449b2f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Menu_01.wav using Guid(b4ebea81cb105d641aa53185449b2f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e617801f5f1349f93ffa32ad008c6d03') in 0.015228 seconds 
+  Import took 0.018181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Fantasy_Regress_In_Menu.wav
+  artifactKey: Guid(4e1c89d5f58280148bd7b7df8749c4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Fantasy_Regress_In_Menu.wav using Guid(4e1c89d5f58280148bd7b7df8749c4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560d3c4a8f007c960397df5b1656dbe4') in 0.013676 seconds 
+  Import took 0.016547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Moving_Forward_In_Menu_02.wav
+  artifactKey: Guid(311fa62affaebe8499e50f54e74f609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Moving_Forward_In_Menu_02.wav using Guid(311fa62affaebe8499e50f54e74f609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b2a08d278f5eab3c8719f4b36c099e') in 0.012149 seconds 
+  Import took 0.014804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Buy_Button_03.wav
+  artifactKey: Guid(c59ccc47a1171db4bb264a481b1bcc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Buy_Button_03.wav using Guid(c59ccc47a1171db4bb264a481b1bcc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed1c81289bed1a4ac5f612162b37a7a') in 0.013396 seconds 
+  Import took 0.016074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_High_Pitch_02.wav
+  artifactKey: Guid(ff5ea94b9e6520a48a487bd0f847cbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_High_Pitch_02.wav using Guid(ff5ea94b9e6520a48a487bd0f847cbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d524bbc92b4e459054c8d772eaaa31') in 0.012757 seconds 
+  Import took 0.015531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Buy_Button_02.wav
+  artifactKey: Guid(61d33e360159b464690507cd79f79f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Buy_Button_02.wav using Guid(61d33e360159b464690507cd79f79f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5116564d8b2f1ef1256110e1b19b748d') in 0.015144 seconds 
+  Import took 0.017955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Menu_02.wav
+  artifactKey: Guid(be3c3d5c83fc9814b8f13d5f37726d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Menu_02.wav using Guid(be3c3d5c83fc9814b8f13d5f37726d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a5a3de334ef93c2bac20d53dbb51b0') in 0.012573 seconds 
+  Import took 0.015331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Buy_Button_01.wav
+  artifactKey: Guid(9f91b3585d3e0c24eaa8684fb808525a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Buy_Button_01.wav using Guid(9f91b3585d3e0c24eaa8684fb808525a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c51527eefdaf47087c5298767f189fa') in 0.013050 seconds 
+  Import took 0.016097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Buy_Button_05.wav
+  artifactKey: Guid(0d73e7ab03066b54abcda307bf108d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Buy_Button_05.wav using Guid(0d73e7ab03066b54abcda307bf108d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1d8e5316577107f3e3160eec710393') in 0.012500 seconds 
+  Import took 0.015220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_Wood_01.wav
+  artifactKey: Guid(e2212e2c2d5481d4291bc7b0737b9240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_Wood_01.wav using Guid(e2212e2c2d5481d4291bc7b0737b9240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d971fa31c9dddeb64c016c1f76c819') in 0.013485 seconds 
+  Import took 0.016148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_High_Pitch_04.wav
+  artifactKey: Guid(d6ab0fafc1073a747adec9f1e2d32311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_High_Pitch_04.wav using Guid(d6ab0fafc1073a747adec9f1e2d32311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9772d8bb2bb2bd85b267c7e582884a') in 0.012111 seconds 
+  Import took 0.014647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Pop_Up_01.wav
+  artifactKey: Guid(8ee9b2b8bb3aca440a9a02c117e1d1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Pop_Up_01.wav using Guid(8ee9b2b8bb3aca440a9a02c117e1d1a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b9189d21c35da477e226d4dd0a291e') in 0.012786 seconds 
+  Import took 0.015446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Regress_In_Menu.wav
+  artifactKey: Guid(48aa5e1e48ce27747ad89d0dc73eb6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Regress_In_Menu.wav using Guid(48aa5e1e48ce27747ad89d0dc73eb6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fa0a3a4cfdda5c00bf6b15d6a8111f') in 0.012825 seconds 
+  Import took 0.015447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Appear_List_01.wav
+  artifactKey: Guid(9c91fef1603a74e48911b2b4dd268b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Appear_List_01.wav using Guid(9c91fef1603a74e48911b2b4dd268b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1a07c4ee892090ea514633fc660d1f') in 0.013460 seconds 
+  Import took 0.016315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Menu_04.wav
+  artifactKey: Guid(01b25bea01f1f9941b8ec503fa7e35e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Menu_04.wav using Guid(01b25bea01f1f9941b8ec503fa7e35e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63be3f5abb5da3ea43780067026938e8') in 0.013406 seconds 
+  Import took 0.016033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Pop_Up_02.wav
+  artifactKey: Guid(2d1e3dd08b99bfa41878ab8fa2b5e48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Pop_Up_02.wav using Guid(2d1e3dd08b99bfa41878ab8fa2b5e48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e1dfc5666e6713081ca89aba96001a') in 0.013782 seconds 
+  Import took 0.016390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Buy_Button_04.wav
+  artifactKey: Guid(fa066a07bedde004a828e6dcd6bf38a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Buy_Button_04.wav using Guid(fa066a07bedde004a828e6dcd6bf38a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad337013f0a0c41cafbe959350eaf45') in 0.012886 seconds 
+  Import took 0.015497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Loading_Text_Loop_02.wav
+  artifactKey: Guid(5ce2283099d459d41b751dee09fefb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/Loading_Text_Loop_02.wav using Guid(5ce2283099d459d41b751dee09fefb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807e15c574969c1b6e77514b90e8ad47') in 0.013186 seconds 
+  Import took 0.015875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_High_Pitch_01.wav
+  artifactKey: Guid(63a99918c209c7341b149db3b57cd966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_High_Pitch_01.wav using Guid(63a99918c209c7341b149db3b57cd966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871943aaa003775ae0422b420dd5d383') in 0.013618 seconds 
+  Import took 0.016263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Buy_Button_06.wav
+  artifactKey: Guid(a52f8f9762042e245a8bee7ca0a74d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Buy_Button_06.wav using Guid(a52f8f9762042e245a8bee7ca0a74d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e18ebac7f17684518265b1745ddcd7') in 0.014580 seconds 
+  Import took 0.017427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Moving_Forward_In_Menu_01.wav
+  artifactKey: Guid(7b4395b87c213f44e9e2c05f8390858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Moving_Forward_In_Menu_01.wav using Guid(7b4395b87c213f44e9e2c05f8390858d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95983d4ae258f1b410e6253b2991f91') in 0.015243 seconds 
+  Import took 0.017942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_02.wav
+  artifactKey: Guid(1e3f31b7e7cbf064280bb5329bd4dfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Button_02.wav using Guid(1e3f31b7e7cbf064280bb5329bd4dfdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c372a70cbf49f606b97b9e8d076411') in 0.014156 seconds 
+  Import took 0.016637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Menu_05.wav
+  artifactKey: Guid(c5f7aceff672ccb41bbc13bd251945b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/RPG_Fantasy Game - Interface Sounds/WAV/UI_Menu_05.wav using Guid(c5f7aceff672ccb41bbc13bd251945b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd585fd7bfa968fa4f4f4f789521acf8a') in 0.012485 seconds 
+  Import took 0.015021 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.111647 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.837 seconds
+Domain Reload Profiling:
+	ReloadAssembly (838ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (662ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395204) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2201 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2670.
+Total: 2.407300 ms (FindLiveObjects: 0.200200 ms CreateObjectMapping: 0.063100 ms MarkObjects: 2.123600 ms  DeleteObjects: 0.019500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
